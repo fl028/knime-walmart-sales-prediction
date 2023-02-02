@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="selected_column" type="xstring" value="area_name"/>
+        <entry key="is_nominal" type="xboolean" value="true"/>
+        <entry key="palette_option" type="xstring" value="custom_set"/>
+        <entry key="Anaheim" type="xint" value="-1663232"/>
+        <entry key="Anderson" type="xint" value="-11094807"/>
+        <entry key="Antelope" type="xint" value="-16736653"/>
+        <entry key="Arroyo Grande" type="xint" value="-990142"/>
+        <entry key="Bakersfield" type="xint" value="-16747854"/>
+        <entry key="Brea" type="xint" value="-2793984"/>
+        <entry key="Cerritos" type="xint" value="-3376729"/>
+        <entry key="Chino" type="xint" value="-1663232"/>
+        <entry key="Chula Vista" type="xint" value="-12566464"/>
+        <entry key="City of Industry" type="xint" value="-16736653"/>
+        <entry key="Compton" type="xint" value="-990142"/>
+        <entry key="Covina" type="xint" value="-16747854"/>
+        <entry key="El Cajon" type="xint" value="-2793984"/>
+        <entry key="Gilroy" type="xint" value="-3376729"/>
+        <entry key="Irvine" type="xint" value="-1663232"/>
+        <entry key="Kerman" type="xint" value="-11094807"/>
+        <entry key="La Mesa" type="xint" value="-16736653"/>
+        <entry key="Laguna Niguel" type="xint" value="-990142"/>
+        <entry key="Lake Elsinore" type="xint" value="-16747854"/>
+        <entry key="Lompoc" type="xint" value="-2793984"/>
+        <entry key="Marina" type="xint" value="-3376729"/>
+        <entry key="Marysville" type="xint" value="-1663232"/>
+        <entry key="Merced" type="xint" value="-11094807"/>
+        <entry key="Mountain View" type="xint" value="-16736653"/>
+        <entry key="Murrieta" type="xint" value="-990142"/>
+        <entry key="National City" type="xint" value="-16747854"/>
+        <entry key="Oceanside" type="xint" value="-2793984"/>
+        <entry key="Orange" type="xint" value="-3376729"/>
+        <entry key="Panorama City" type="xint" value="-1663232"/>
+        <entry key="Paso Robles" type="xint" value="-11094807"/>
+        <entry key="Pico Rivera" type="xint" value="-16736653"/>
+        <entry key="Rancho Santa Margarita" type="xint" value="-990142"/>
+        <entry key="Richmond" type="xint" value="-16747854"/>
+        <entry key="San Diego" type="xint" value="-2793984"/>
+        <entry key="San Leandro" type="xint" value="-3376729"/>
+        <entry key="San Marcos" type="xint" value="-1663232"/>
+        <entry key="Sanger" type="xint" value="-11094807"/>
+        <entry key="Santee" type="xint" value="-16736653"/>
+        <entry key="South Gate" type="xint" value="-990142"/>
+        <entry key="Susanville" type="xint" value="-16747854"/>
+        <entry key="Temecula" type="xint" value="-2793984"/>
+        <entry key="Wasco" type="xint" value="-3376729"/>
+        <entry key="Westminster" type="xint" value="-1663232"/>
+        <entry key="Willows" type="xint" value="-11094807"/>
+        <config key="values">
+            <entry key="array-size" type="xint" value="44"/>
+            <config key="0">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Anaheim"/>
+                </config>
+            </config>
+            <config key="1">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Anderson"/>
+                </config>
+            </config>
+            <config key="2">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Antelope"/>
+                </config>
+            </config>
+            <config key="3">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Arroyo Grande"/>
+                </config>
+            </config>
+            <config key="4">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Bakersfield"/>
+                </config>
+            </config>
+            <config key="5">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Brea"/>
+                </config>
+            </config>
+            <config key="6">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Cerritos"/>
+                </config>
+            </config>
+            <config key="7">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Chino"/>
+                </config>
+            </config>
+            <config key="8">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Chula Vista"/>
+                </config>
+            </config>
+            <config key="9">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="City of Industry"/>
+                </config>
+            </config>
+            <config key="10">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Compton"/>
+                </config>
+            </config>
+            <config key="11">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Covina"/>
+                </config>
+            </config>
+            <config key="12">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="El Cajon"/>
+                </config>
+            </config>
+            <config key="13">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Gilroy"/>
+                </config>
+            </config>
+            <config key="14">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Irvine"/>
+                </config>
+            </config>
+            <config key="15">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Kerman"/>
+                </config>
+            </config>
+            <config key="16">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="La Mesa"/>
+                </config>
+            </config>
+            <config key="17">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Laguna Niguel"/>
+                </config>
+            </config>
+            <config key="18">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Lake Elsinore"/>
+                </config>
+            </config>
+            <config key="19">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Lompoc"/>
+                </config>
+            </config>
+            <config key="20">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Marina"/>
+                </config>
+            </config>
+            <config key="21">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Marysville"/>
+                </config>
+            </config>
+            <config key="22">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Merced"/>
+                </config>
+            </config>
+            <config key="23">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Mountain View"/>
+                </config>
+            </config>
+            <config key="24">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Murrieta"/>
+                </config>
+            </config>
+            <config key="25">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="National City"/>
+                </config>
+            </config>
+            <config key="26">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Oceanside"/>
+                </config>
+            </config>
+            <config key="27">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Orange"/>
+                </config>
+            </config>
+            <config key="28">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Panorama City"/>
+                </config>
+            </config>
+            <config key="29">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Paso Robles"/>
+                </config>
+            </config>
+            <config key="30">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Pico Rivera"/>
+                </config>
+            </config>
+            <config key="31">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Rancho Santa Margarita"/>
+                </config>
+            </config>
+            <config key="32">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Richmond"/>
+                </config>
+            </config>
+            <config key="33">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="San Diego"/>
+                </config>
+            </config>
+            <config key="34">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="San Leandro"/>
+                </config>
+            </config>
+            <config key="35">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="San Marcos"/>
+                </config>
+            </config>
+            <config key="36">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Sanger"/>
+                </config>
+            </config>
+            <config key="37">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Santee"/>
+                </config>
+            </config>
+            <config key="38">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="South Gate"/>
+                </config>
+            </config>
+            <config key="39">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Susanville"/>
+                </config>
+            </config>
+            <config key="40">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Temecula"/>
+                </config>
+            </config>
+            <config key="41">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Wasco"/>
+                </config>
+            </config>
+            <config key="42">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Westminster"/>
+                </config>
+            </config>
+            <config key="43">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="Willows"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.viz.property.color.ColorManager2NodeFactory"/>
+    <entry key="node-name" type="xstring" value="Color Manager"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211291414"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211291442"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Color Manager"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 45, Cols: 5"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.viewproperty.ColorHandlerPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Coloring on &quot;area_name&quot;"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="d915436e-3481-46b2-aece-1d874b214b1a"/>
+    </config>
+</config>
