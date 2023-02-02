@@ -6,9 +6,9 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="area_name"/>
         <entry key="is_nominal" type="xboolean" value="true"/>
-        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="Anaheim" type="xint" value="-1663232"/>
         <entry key="Anderson" type="xint" value="-11094807"/>
         <entry key="Antelope" type="xint" value="-16736653"/>
@@ -357,6 +357,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d915436e-3481-46b2-aece-1d874b214b1a"/>
+        <entry key="file_store_id" type="xstring" value="c5f707f2-d38e-4691-adbb-38ad120699ac"/>
     </config>
 </config>
