@@ -1,18 +1,18 @@
-Date;Event_Name
-12-Feb-10;Super Bowl
-11-Feb-11;Super Bowl
-10-Feb-12;Super Bowl
-10-Feb-12;Super Bowl
-8-Feb-13;Super Bowl
-10-Sep-10;Labour Day
-9-Sep-11;Labour Day
-7-Sep-12;Labour Day
-6-Sep-13;Labour Day
-26-Nov-10;Thanksgiving
-25-Nov-11;Thanksgiving
-23-Nov-12;Thanksgiving
-29-Nov-13;Thanksgiving
-31-Dec-10;Christmas
-30-Dec-11;Christmas
-28-Dec-12;Christmas
-27-Dec-13;Christmas
+Date,Event_Name
+12-Feb-10,Super Bowl
+11-Feb-11,Super Bowl
+10-Feb-12,Super Bowl
+10-Feb-12,Super Bowl
+8-Feb-13,Super Bowl
+10-Sep-10,Labour Day
+9-Sep-11,Labour Day
+7-Sep-12,Labour Day
+6-Sep-13,Labour Day
+26-Nov-10,Thanksgiving
+25-Nov-11,Thanksgiving
+23-Nov-12,Thanksgiving
+29-Nov-13,Thanksgiving
+31-Dec-10,Christmas
+30-Dec-11,Christmas
+28-Dec-12,Christmas
+27-Dec-13,Christmas

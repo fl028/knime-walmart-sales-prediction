@@ -21,7 +21,11 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Status: DataLoadError: BoxPlots Outliers  3:7%%00010  Status: DataLoadError: Component Input 3:7:0:7%%00010    Status: DataLoadError: Unable to load port content for node &quot;Component Input&quot;: No such data file: C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Component Input (#7)\port_1\data.xml%%00010    Status: DataLoadError: State has changed from EXECUTED to IDLE%%00010  Status: DataLoadError: Box Plot 3:7:0:6%%00010    Status: DataLoadError: Unable to load port content for node &quot;Box Plot&quot;: Can't read spec file C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#6)\port_1\spec\spec.zip%%00010    Status: DataLoadError: Loading model internals failed: C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#6)\internal\representation.xml (Das System kann den angegebenen Pfad nicht finden)%%00010  Status: DataLoadError: Box Plot 3:7:0:5%%00010    Status: DataLoadError: Unable to load port content for node &quot;Box Plot&quot;: Can't read spec file C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#5)\port_1\spec\spec.zip%%00010    Status: DataLoadError: Loading model internals failed: C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#5)\internal\representation.xml (Das System kann den angegebenen Pfad nicht finden)"/>
+    </config>
     <entry key="workflow-file" type="xstring" value="workflow.knime"/>
     <entry key="virtual-in-ID" type="xint" value="7"/>
     <config key="inports">

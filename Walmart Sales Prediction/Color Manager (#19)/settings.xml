@@ -6,6 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="Sum(Weekly_Sales)"/>
         <entry key="is_nominal" type="xboolean" value="false"/>
         <entry key="min_color" type="xint" value="-39579"/>
@@ -47,6 +48,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="53e66cae-f759-4b40-a20c-53cc3b1f5e3e"/>
+        <entry key="file_store_id" type="xstring" value="20c3e327-5cc8-4c20-87ae-93f2fcb24b16"/>
     </config>
 </config>

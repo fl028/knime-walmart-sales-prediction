@@ -109,7 +109,11 @@
         <entry key="customCSS" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Status: DataLoadError: Table View 3:2%%00010  Status: DataLoadError: Unable to load port content for node &quot;Table View&quot;: No such data file: C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\Table View (#2)\port_1\data.xml%%00010  Status: DataLoadError: Unable to load internally held tables for node &quot;Table View&quot;: Cannot read directory C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\Table View (#2)\internalTables\object_0%%00010  Status: DataLoadError: Loading model internals failed: C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\Table View (#2)\internal\representation.xml (Das System kann den angegebenen Pfad nicht finden)"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.js.base.node.viz.pagedTable.PagedTableViewNodeFactory"/>
     <entry key="node-name" type="xstring" value="Table View"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
@@ -122,29 +126,16 @@
     <entry key="node-feature-version" type="xstring" value="4.7.0.v202211091556"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Table View"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 6435, Cols: 9"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
-        </config>
-    </config>
-    <config key="internalObjects">
-        <entry key="location" type="xstring" value="internalTables"/>
-        <config key="content">
-            <config key="object_0">
-                <entry key="index" type="xint" value="0"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_0"/>
-            </config>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ecd641e5-b727-4c10-8fdd-2587aa72cfa6"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

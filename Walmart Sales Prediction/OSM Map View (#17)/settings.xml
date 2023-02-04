@@ -10,12 +10,12 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="latitude_column" type="xstring" value="latitude"/>
+        <entry key="latitude_column" type="xstring" value="Latitude"/>
         <config key="longitude_column_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="longitude_column" type="xstring" value="longitude"/>
+        <entry key="longitude_column" type="xstring" value="Longitude"/>
         <config key="hover_info_columns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -23,12 +23,14 @@
         <config key="hover_info_columns">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Sum(Weekly_Sales)"/>
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="Store"/>
+                <entry key="1" type="xstring" value="Latitude"/>
+                <entry key="2" type="xstring" value="Longitude"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="3"/>
-                <entry key="0" type="xstring" value="Store"/>
+                <entry key="0" type="xstring" value="Sum(Weekly_Sales)"/>
                 <entry key="1" type="xstring" value="latitude"/>
                 <entry key="2" type="xstring" value="longitude"/>
             </config>
@@ -80,6 +82,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6c7f77fb-8a1a-4613-aa31-566596cd69db"/>
+        <entry key="file_store_id" type="xstring" value="5e67b71c-65cc-43b2-ab48-15fb17a40c8c"/>
     </config>
 </config>

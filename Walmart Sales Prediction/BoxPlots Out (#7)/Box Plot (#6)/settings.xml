@@ -145,7 +145,11 @@
         <entry key="customCSS" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Status: DataLoadError: Box Plot 3:7:0:6%%00010  Status: DataLoadError: Unable to load port content for node &quot;Box Plot&quot;: Can't read spec file C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#6)\port_1\spec\spec.zip%%00010  Status: DataLoadError: Loading model internals failed: C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#6)\internal\representation.xml (Das System kann den angegebenen Pfad nicht finden)"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Box Plot"/>
     <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
@@ -160,21 +164,16 @@
         <entry key="nodeDir" type="xstring" value="org.knime.dynamic.js.base:nodes/:boxplot_v2"/>
     </config>
     <entry key="name" type="xstring" value="Box Plot"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1d3bfd85-7cc0-4bbf-b4a3-3dc7c60e1751"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
