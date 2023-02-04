@@ -1,4 +1,4 @@
-store_id;region_code;area_name;latitude;longitude
+Store;Region_Code;Area_Name;Latitude;Longitude
 1;CA;San Leandro;37.7146733754255;-122.1765640875993
 2;CA;Anderson;40.43127991160498;-122.28649591418105
 3;CA;Richmond;37.97973109032769;-122.32643578441241
