@@ -146,10 +146,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Status: DataLoadError: Box Plot 3:7:0:5%%00010  Status: DataLoadError: Unable to load port content for node &quot;Box Plot&quot;: Can't read spec file C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#5)\port_1\spec\spec.zip%%00010  Status: DataLoadError: Loading model internals failed: C:\Users\a002110\Documents\knime-workspace\knime-walmart-sales-prediction\Walmart Sales Prediction\BoxPlots Out (#7)\Box Plot (#5)\internal\representation.xml (Das System kann den angegebenen Pfad nicht finden)"/>
-    </config>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Box Plot"/>
     <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
