@@ -6,20 +6,20 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="css-stylesheet"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009color: orange;%%00010}%%00010%%00010.knime-table-info{%%00010%%00009visibility: hidden;%%00010%%00009}"/>
+            <entry key="value" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009fill: orange;%%00010}%%00010"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="css-stylesheet"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009color: orange;%%00010}%%00010%%00010.knime-table-info{%%00010%%00009visibility: hidden;%%00010%%00009}"/>
+            <entry key="value" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009fill: orange;%%00010}%%00010"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="cssCode" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009color: orange;%%00010}%%00010%%00010.knime-table-info{%%00010%%00009visibility: hidden;%%00010%%00009}"/>
+        <entry key="cssCode" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009fill: orange;%%00010}%%00010"/>
         <entry key="variableName" type="xstring" value="css-stylesheet"/>
         <entry key="appendCheckbox" type="xboolean" value="false"/>
         <entry key="selectedButton" type="xint" value="0"/>
@@ -56,6 +56,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="27803e26-4a24-47aa-8f4d-33438257af64"/>
+        <entry key="file_store_id" type="xstring" value="b951ab64-7f10-4740-becb-da589fe1cc96"/>
     </config>
 </config>

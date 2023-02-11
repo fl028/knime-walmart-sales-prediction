@@ -19,13 +19,13 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="wasCollapsed" type="xboolean" value="false"/>
+        <entry key="cssCode" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009color: orange;%%00010}%%00010%%00010.knime-table-info{%%00010%%00009visibility: hidden;%%00010%%00009}"/>
         <entry key="variableName" type="xstring" value="css-stylesheet"/>
         <entry key="appendCheckbox" type="xboolean" value="false"/>
+        <entry key="selectedButton" type="xint" value="0"/>
         <entry key="prependVariable" type="xstring" isnull="true" value=""/>
         <entry key="replaceVariable" type="xstring" isnull="true" value=""/>
-        <entry key="selectedButton" type="xint" value="0"/>
-        <entry key="cssCode" type="xstring" value="/* example style rule */%%00010.knime-title {%%00010%%00009color: orange;%%00010}%%00010%%00010.knime-table-info{%%00010%%00009visibility: hidden;%%00010%%00009}"/>
+        <entry key="wasCollapsed" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -56,6 +56,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6d78f76b-c017-42c1-b322-6a218212b6e4"/>
+        <entry key="file_store_id" type="xstring" value="1d563dfd-a84f-4924-adb9-04e88f4e78f9"/>
     </config>
 </config>
