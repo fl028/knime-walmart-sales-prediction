@@ -24,10 +24,12 @@
         </config>
         <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
         <config key="port-names">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Port 1"/>
         </config>
         <config key="port-descriptions">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value=""/>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -43,17 +45,30 @@
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-feature-version" type="xstring" value="4.7.0.v202212011250"/>
-    <config key="factory_settings"/>
+    <config key="factory_settings">
+        <config key="port_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
     <entry key="name" type="xstring" value="Component Output"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
     <config key="internalObjects">
         <entry key="location" type="xstring" value="internalTables"/>
-        <config key="content"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+        </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0332348c-567b-497d-8eb0-1260d342d5c5"/>
+        <entry key="file_store_id" type="xstring" value="2fb2954c-ec78-4b11-aa03-0a7ee88ad9d1"/>
     </config>
 </config>

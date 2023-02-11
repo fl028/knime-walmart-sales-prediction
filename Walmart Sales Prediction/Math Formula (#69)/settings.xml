@@ -6,31 +6,25 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="ColumnOrder">
-            <entry key="array-size" type="xint" value="7"/>
-            <entry key="0" type="xstring" value="&lt;any unknown new column&gt;"/>
-            <entry key="1" type="xstring" value="Column Name"/>
-            <entry key="2" type="xstring" value="Description"/>
-            <entry key="3" type="xstring" value="Unit_of_measurement"/>
-            <entry key="4" type="xstring" value="Column Type"/>
-            <entry key="5" type="xstring" value="Lower Bound"/>
-            <entry key="6" type="xstring" value="Upper Bound"/>
-        </config>
+        <entry key="append_column" type="xboolean" value="false"/>
+        <entry key="replaced_column" type="xstring" value="Temperature_Converted"/>
+        <entry key="expression" type="xstring" value="($Temperature$ - 32) * 5/9 "/>
+        <entry key="convert_to_int" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory"/>
-    <entry key="node-name" type="xstring" value="Column Resorter"/>
-    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
-    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.jep.JEPNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Math Formula"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jep"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211291414"/>
-    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
-    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202208041429"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Math Expression (JEP)"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jep.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211291442"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.0.v202208041429"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="Column Resorter"/>
+    <entry key="name" type="xstring" value="Math Formula"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
@@ -38,12 +32,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 6435, Cols: 16"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3b270851-e1fe-44f4-a23c-90ec00fd5152"/>
+        <entry key="file_store_id" type="xstring" value="25b36656-4222-44eb-8a91-3018287a6e9e"/>
     </config>
 </config>

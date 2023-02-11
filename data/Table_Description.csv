@@ -1,7 +1,7 @@
 Column_Name,Description,Unit_of_measurement
 Store,Identifikation Nummer der Filiale,ID
-Date,Datum des Verkaufs,Woche
-Date_Converted,Datum des Verkaufs,Woche
+Date,Start Datum der Verkaufswoche,Datum
+Date_Converted,Start Datum der Verkaufswoche,Datum
 Weekly_Sales,Umsatzerlös,Dollar
 Holiday_Flag,Lag in der Woche ein Feiertag vor,1 – Feiertag/ 0 – kein Feiertag
 Temperature,Temperatur am Verkaufstag,Fahrenheit
