@@ -10,16 +10,16 @@
             <entry key="array-size" type="xint" value="1"/>
             <entry key="0" type="xstring" value="Column Name"/>
         </config>
-        <config key="alphaNumStringComp">
-            <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xboolean" value="true"/>
-        </config>
-        <entry key="missingToEnd" type="xboolean" value="false"/>
-        <entry key="sortinmemory" type="xboolean" value="false"/>
         <config key="sortOrder">
             <entry key="array-size" type="xint" value="1"/>
             <entry key="0" type="xboolean" value="true"/>
         </config>
+        <config key="alphaNumStringComp">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xboolean" value="true"/>
+        </config>
+        <entry key="sortinmemory" type="xboolean" value="false"/>
+        <entry key="missingToEnd" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -48,6 +48,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d11515d7-92b7-4db5-94bf-25891f63b9df"/>
+        <entry key="file_store_id" type="xstring" value="41e3191b-b56d-4ab7-9aaf-c1a2e2b2ac44"/>
     </config>
 </config>

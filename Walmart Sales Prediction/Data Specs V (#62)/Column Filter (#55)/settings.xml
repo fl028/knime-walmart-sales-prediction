@@ -7,6 +7,28 @@
     </config>
     <config key="model">
         <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="Description"/>
+                <entry key="1" type="xstring" value="Unit_of_measurement"/>
+                <entry key="2" type="xstring" value="Column Name"/>
+                <entry key="3" type="xstring" value="Column Type"/>
+                <entry key="4" type="xstring" value="Lower Bound"/>
+                <entry key="5" type="xstring" value="Upper Bound"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="Column_Name"/>
+                <entry key="1" type="xstring" value="Column Index"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
             <config key="datatype">
                 <config key="typelist">
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
@@ -17,28 +39,6 @@
                     <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                 </config>
             </config>
-            <config key="name_pattern">
-                <entry key="pattern" type="xstring" value=""/>
-                <entry key="excludeMatching" type="xboolean" value="false"/>
-                <entry key="type" type="xstring" value="Wildcard"/>
-                <entry key="caseSensitive" type="xboolean" value="true"/>
-            </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Column_Name"/>
-                <entry key="1" type="xstring" value="Column Index"/>
-            </config>
-            <config key="included_names">
-                <entry key="array-size" type="xint" value="6"/>
-                <entry key="0" type="xstring" value="Description"/>
-                <entry key="1" type="xstring" value="Unit_of_measurement"/>
-                <entry key="2" type="xstring" value="Column Name"/>
-                <entry key="3" type="xstring" value="Column Type"/>
-                <entry key="4" type="xstring" value="Lower Bound"/>
-                <entry key="5" type="xstring" value="Upper Bound"/>
-            </config>
-            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
-            <entry key="filter-type" type="xstring" value="STANDARD"/>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -68,6 +68,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1c9b1960-c1fd-4923-8f0c-e66ecd40f684"/>
+        <entry key="file_store_id" type="xstring" value="22495880-9704-416e-83fe-7a39c3a655d8"/>
     </config>
 </config>
