@@ -18,13 +18,8 @@
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
             <config key="2">
-                <entry key="old_column_name" type="xstring" value="Sum(Weekly_Sales_Converted)"/>
-                <entry key="new_column_name" type="xstring" isnull="true" value=""/>
-                <entry key="new_column_type" type="xint" value="0"/>
-            </config>
-            <config key="3">
-                <entry key="old_column_name" type="xstring" value="new column"/>
-                <entry key="new_column_name" type="xstring" value="Umsatz"/>
+                <entry key="old_column_name" type="xstring" value="Sum(Weekly_Sales_Converted_Mio)"/>
+                <entry key="new_column_name" type="xstring" value="Umsatz (Mio €)"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
         </config>
@@ -50,12 +45,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a0274acb-b79c-4ea8-a1eb-daffdc8f94c0"/>
+        <entry key="file_store_id" type="xstring" value="f83f27f8-0379-4d99-a35d-e3a34a404805"/>
     </config>
 </config>

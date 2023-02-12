@@ -17,7 +17,7 @@
                 <entry key="1" type="xstring" value="Store"/>
             </config>
             <config key="ExclList">
-                <entry key="array-size" type="xint" value="22"/>
+                <entry key="array-size" type="xint" value="24"/>
                 <entry key="0" type="xstring" value="Region_Code"/>
                 <entry key="1" type="xstring" value="Latitude"/>
                 <entry key="2" type="xstring" value="Longitude"/>
@@ -33,13 +33,15 @@
                 <entry key="12" type="xstring" value="Temperature_Converted"/>
                 <entry key="13" type="xstring" value="Weekly_Sales_Converted"/>
                 <entry key="14" type="xstring" value="Fuel_Price_Converted"/>
-                <entry key="15" type="xstring" value="Year"/>
-                <entry key="16" type="xstring" value="Quarter"/>
-                <entry key="17" type="xstring" value="Month (number)"/>
-                <entry key="18" type="xstring" value="Month (name)"/>
-                <entry key="19" type="xstring" value="Week"/>
-                <entry key="20" type="xstring" value="Joined_Year_Month"/>
-                <entry key="21" type="xstring" value="Joined_Quarter_Year"/>
+                <entry key="15" type="xstring" value="Weekly_Sales_Converted_Mio"/>
+                <entry key="16" type="xstring" value="Weekly_Sales_Converted_Mio (rounded)"/>
+                <entry key="17" type="xstring" value="Year"/>
+                <entry key="18" type="xstring" value="Quarter"/>
+                <entry key="19" type="xstring" value="Month (number)"/>
+                <entry key="20" type="xstring" value="Month (name)"/>
+                <entry key="21" type="xstring" value="Week"/>
+                <entry key="22" type="xstring" value="Joined_Year_Month"/>
+                <entry key="23" type="xstring" value="Joined_Quarter_Year"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
         </config>
@@ -71,7 +73,7 @@
         <config key="aggregationColumn">
             <config key="columnNames">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Weekly_Sales_Converted"/>
+                <entry key="0" type="xstring" value="Weekly_Sales_Converted_Mio"/>
             </config>
             <config key="columnTypes">
                 <entry key="array-size" type="xint" value="1"/>
@@ -136,6 +138,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="61866c13-e390-40db-b2d2-c6e42f2845fa"/>
+        <entry key="file_store_id" type="xstring" value="4b9f3de8-7759-40a4-9f1b-182f0b5d4fab"/>
     </config>
 </config>

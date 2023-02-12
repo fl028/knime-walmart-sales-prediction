@@ -8,7 +8,7 @@
     <config key="model">
         <config key="incllist">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="Sum(Weekly_Sales_Converted)"/>
+            <entry key="0" type="xstring" value="Sum(Weekly_Sales_Converted_Mio)"/>
         </config>
         <config key="sortOrder">
             <entry key="array-size" type="xint" value="1"/>
@@ -48,6 +48,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c773cb89-b32d-43be-94b6-44b7776620ab"/>
+        <entry key="file_store_id" type="xstring" value="8f93669f-eeaf-402b-b15c-85f6bf0c3df1"/>
     </config>
 </config>

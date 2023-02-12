@@ -34,7 +34,7 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Sum(Weekly_Sales) (rounded)"/>
+                <entry key="0" type="xstring" value="Sum(Weekly_Sales_Converted_Mio)"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="2"/>
@@ -74,12 +74,12 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="title" type="xstring" value="Bar Chart"/>
+        <entry key="title" type="xstring" value="Umsätze (an Feiertagen 2010-2012)"/>
         <config key="subtitle_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="subtitle" type="xstring" value=""/>
+        <entry key="subtitle" type="xstring" value="In Mio. €"/>
         <config key="catLabel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -260,6 +260,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8f103384-f00a-44f3-a383-3da8fa8fb6ff"/>
+        <entry key="file_store_id" type="xstring" value="e528dd47-e380-4188-8355-3fb280bc139c"/>
     </config>
 </config>
