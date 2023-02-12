@@ -32,8 +32,15 @@
             </config>
         </config>
     </config>
-    <entry key="virtual-out-ID" type="xint" value="85"/>
-    <config key="outports"/>
+    <entry key="virtual-out-ID" type="xint" value="87"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
+            </config>
+        </config>
+    </config>
     <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;78&quot;,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;autoResize&quot;:true,&quot;useLegacyMode&quot;:false,&quot;scrolling&quot;:false,&quot;sizeWidth&quot;:false,&quot;resizeTolerance&quot;:5,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:6},{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;82&quot;,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;autoResize&quot;:true,&quot;useLegacyMode&quot;:false,&quot;scrolling&quot;:false,&quot;sizeWidth&quot;:false,&quot;resizeTolerance&quot;:5,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:6}]}]}"/>
     <entry key="configurationLayoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false}"/>
     <entry key="hideInWizard" type="xboolean" value="false"/>
