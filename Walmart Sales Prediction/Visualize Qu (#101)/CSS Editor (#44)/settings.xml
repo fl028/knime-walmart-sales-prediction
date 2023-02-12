@@ -6,20 +6,20 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="css-stylesheet"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value=".knime-title {%%00010%%00009fill: orange;%%00010}"/>
+            <entry key="value" type="xstring" value=".knime-title {%%00010%%00009fill: orange;%%00010}%%00010"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="css-stylesheet"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value=".knime-title {%%00010%%00009fill: orange;%%00010}"/>
+            <entry key="value" type="xstring" value=".knime-title {%%00010%%00009fill: orange;%%00010}%%00010"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="cssCode" type="xstring" value=".knime-title {%%00010%%00009fill: orange;%%00010}"/>
+        <entry key="cssCode" type="xstring" value=".knime-title {%%00010%%00009fill: orange;%%00010}%%00010"/>
         <entry key="variableName" type="xstring" value="css-stylesheet"/>
         <entry key="appendCheckbox" type="xboolean" value="false"/>
         <entry key="selectedButton" type="xint" value="0"/>
@@ -56,6 +56,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0a0e50ee-4696-4c0b-b809-70c957a2ecb5"/>
+        <entry key="file_store_id" type="xstring" value="18a29ad0-ae9d-4937-8c6c-331b2e4a2d09"/>
     </config>
 </config>

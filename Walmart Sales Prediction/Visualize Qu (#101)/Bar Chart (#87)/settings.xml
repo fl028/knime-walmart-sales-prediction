@@ -15,7 +15,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="cat" type="xstring" value="Joined_Quarter_Year"/>
+        <entry key="cat" type="xstring" value="Joined_Year_Month"/>
         <config key="sort_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -33,24 +33,27 @@
         <config key="freq">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Weekly_Sales_Converted"/>
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="Weekly_Sales"/>
+                <entry key="1" type="xstring" value="Month (number)"/>
+                <entry key="2" type="xstring" value="Week"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="13"/>
+                <entry key="array-size" type="xint" value="14"/>
                 <entry key="0" type="xstring" value="Latitude"/>
                 <entry key="1" type="xstring" value="Longitude"/>
                 <entry key="2" type="xstring" value="Store"/>
                 <entry key="3" type="xstring" value="Holiday_Flag"/>
-                <entry key="4" type="xstring" value="Weekly_Sales"/>
-                <entry key="5" type="xstring" value="Temperature"/>
-                <entry key="6" type="xstring" value="Fuel_Price"/>
-                <entry key="7" type="xstring" value="CPI"/>
-                <entry key="8" type="xstring" value="Unemployment"/>
-                <entry key="9" type="xstring" value="Temperature_Converted"/>
+                <entry key="4" type="xstring" value="Temperature"/>
+                <entry key="5" type="xstring" value="Fuel_Price"/>
+                <entry key="6" type="xstring" value="CPI"/>
+                <entry key="7" type="xstring" value="Unemployment"/>
+                <entry key="8" type="xstring" value="Temperature_Converted"/>
+                <entry key="9" type="xstring" value="Weekly_Sales_Converted"/>
                 <entry key="10" type="xstring" value="Fuel_Price_Converted"/>
                 <entry key="11" type="xstring" value="Year"/>
                 <entry key="12" type="xstring" value="Quarter"/>
+                <entry key="13" type="xstring" value="Prediction (Weekly_Sales)"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -61,8 +64,8 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                 </config>
             </config>
         </config>
@@ -90,7 +93,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="subtitle" type="xstring" value="(pro Quartal)"/>
+        <entry key="subtitle" type="xstring" value="Testdaten"/>
         <config key="catLabel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -242,10 +245,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Only the first 2500 rows are displayed."/>
-    </config>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Bar Chart"/>
     <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
@@ -275,6 +274,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="736eed96-9a8b-479b-be43-2f702ec8fc76"/>
+        <entry key="file_store_id" type="xstring" value="c08513cd-b4cc-46c5-af60-fb01e70f96dd"/>
     </config>
 </config>
