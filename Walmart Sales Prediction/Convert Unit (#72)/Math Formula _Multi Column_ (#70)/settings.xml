@@ -6,9 +6,9 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="append_column" type="xboolean" value="false"/>
-        <entry key="replaced_column" type="xstring" value="_Converted"/>
         <entry key="expression" type="xstring" value="$$CURRENT_COLUMN$$ * 0.9365"/>
+        <entry key="replaced_column" type="xstring" value="_Converted"/>
+        <entry key="append_column" type="xboolean" value="false"/>
         <entry key="convert_to_int" type="xboolean" value="false"/>
         <config key="column_selection">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
@@ -78,6 +78,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d447934f-f4af-425a-b0ba-ce7d48ee98e1"/>
+        <entry key="file_store_id" type="xstring" value="62b3764f-85ea-4297-a046-42b6844873a0"/>
     </config>
 </config>

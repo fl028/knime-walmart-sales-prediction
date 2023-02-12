@@ -6,9 +6,10 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="Year"/>
-        <entry key="min_color" type="xint" value="-6710887"/>
         <entry key="is_nominal" type="xboolean" value="false"/>
+        <entry key="min_color" type="xint" value="-6710887"/>
         <entry key="max_color" type="xint" value="-6710887"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -32,7 +33,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1287, Cols: 25"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1287, Cols: 27"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -47,6 +48,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b8870bca-5e94-40c5-8232-59af9cb11292"/>
+        <entry key="file_store_id" type="xstring" value="9bfc877f-2bbe-4622-8b35-5dac0a257b98"/>
     </config>
 </config>

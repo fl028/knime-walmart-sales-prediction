@@ -6,99 +6,99 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="showLegend" type="xboolean" value="false"/>
+        <entry key="autoRange" type="xboolean" value="false"/>
+        <entry key="useDomainInformation" type="xboolean" value="false"/>
+        <entry key="showGrid" type="xboolean" value="false"/>
+        <entry key="showCrosshair" type="xboolean" value="false"/>
+        <entry key="snapToPoints" type="xboolean" value="false"/>
+        <entry key="resizeToWindow" type="xboolean" value="true"/>
+        <entry key="enableViewConfiguration" type="xboolean" value="false"/>
+        <entry key="enableTitleChange" type="xboolean" value="true"/>
+        <entry key="enableSubtitleChange" type="xboolean" value="true"/>
+        <entry key="enableXColumnChange" type="xboolean" value="true"/>
+        <entry key="enableYColumnChange" type="xboolean" value="true"/>
+        <entry key="enableXAxisLabelEdit" type="xboolean" value="true"/>
+        <entry key="enableYAxisLabelEdit" type="xboolean" value="true"/>
+        <entry key="enableDotSizeChange" type="xboolean" value="false"/>
         <entry key="enableZooming" type="xboolean" value="false"/>
+        <entry key="enableDragZooming" type="xboolean" value="false"/>
+        <entry key="enablePanning" type="xboolean" value="false"/>
+        <entry key="showZoomResetButton" type="xboolean" value="false"/>
+        <entry key="enableSelection" type="xboolean" value="false"/>
+        <entry key="enableRectangleSelection" type="xboolean" value="true"/>
+        <entry key="enableLassoSelection" type="xboolean" value="false"/>
+        <entry key="chartTitle" type="xstring" value="Umsatzerlöse Vorhersage"/>
+        <entry key="chartSubtitle" type="xstring" value=""/>
+        <entry key="xCol" type="xstring" value="Weekly_Sales"/>
+        <entry key="yCol" type="xstring" value="Prediction (Weekly_Sales)"/>
+        <entry key="maxRows" type="xint" value="10500"/>
+        <entry key="selectionColumnName" type="xstring" value="Selected (Scatter Plot)"/>
+        <entry key="xAxisLabel" type="xstring" value="Testdaten"/>
+        <entry key="yAxisLabel" type="xstring" value="Vorhersage"/>
+        <entry key="xAxisMin" type="xstring" isnull="true" value=""/>
+        <entry key="xAxisMax" type="xstring" isnull="true" value=""/>
+        <entry key="yAxisMin" type="xstring" isnull="true" value=""/>
+        <entry key="yAxisMax" type="xstring" isnull="true" value=""/>
+        <entry key="dot_size" type="xstring" value="3"/>
+        <entry key="imageWidth" type="xint" value="800"/>
+        <entry key="imageHeight" type="xint" value="600"/>
+        <entry key="backgroundColor" type="xstring" value="rgba(255,255,255,1.0)"/>
+        <entry key="dataAreaColor" type="xstring" value="rgba(255,255,255,1.0)"/>
+        <entry key="gridColor" type="xstring" value="rgba(255,255,255,1.0)"/>
+        <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+        <entry key="publishSelection" type="xboolean" value="true"/>
+        <entry key="subscribeSelection" type="xboolean" value="true"/>
+        <entry key="enableShowSelectedOnly" type="xboolean" value="true"/>
+        <entry key="subscribeFilter" type="xboolean" value="false"/>
+        <entry key="enableSwitchLegend" type="xboolean" value="false"/>
+        <entry key="showWarningInView" type="xboolean" value="true"/>
+        <entry key="reportOnMissingValues" type="xboolean" value="true"/>
         <config key="dateTimeFormats_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_datetime"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="showLegend" type="xboolean" value="false"/>
-        <entry key="autoRange" type="xboolean" value="false"/>
-        <entry key="enforceOrigin" type="xboolean" value="false"/>
-        <entry key="maxRows" type="xint" value="10500"/>
-        <entry key="hideInWizard" type="xboolean" value="false"/>
-        <entry key="enableDotSizeChange" type="xboolean" value="false"/>
-        <entry key="enableLassoSelection" type="xboolean" value="false"/>
-        <entry key="dataAreaColor" type="xstring" value="rgba(255,255,255,1.0)"/>
-        <entry key="dot_size" type="xstring" value="3"/>
-        <entry key="xAxisMin" type="xstring" isnull="true" value=""/>
-        <entry key="yAxisMin" type="xstring" isnull="true" value=""/>
-        <entry key="imageWidth" type="xint" value="800"/>
-        <entry key="enableSwitchLegend" type="xboolean" value="false"/>
-        <entry key="chartSubtitle" type="xstring" value=""/>
-        <entry key="resizeToWindow" type="xboolean" value="true"/>
-        <entry key="showGrid" type="xboolean" value="false"/>
-        <entry key="selectionColumnName" type="xstring" value="Selected (Scatter Plot)"/>
-        <entry key="xAxisMax" type="xstring" isnull="true" value=""/>
-        <entry key="useDomainInformation" type="xboolean" value="false"/>
-        <entry key="showCrosshair" type="xboolean" value="false"/>
-        <entry key="showZoomResetButton" type="xboolean" value="false"/>
-        <entry key="enableViewConfiguration" type="xboolean" value="false"/>
-        <entry key="enableXColumnChange" type="xboolean" value="true"/>
-        <entry key="enableYColumnChange" type="xboolean" value="true"/>
-        <entry key="chartTitle" type="xstring" value="Umsatzerlöse Vorhersage"/>
-        <entry key="xAxisLabel" type="xstring" value="Testdaten"/>
-        <entry key="subscribeSelection" type="xboolean" value="true"/>
-        <entry key="generateImage" type="xboolean" value="false"/>
-        <entry key="enableSubtitleChange" type="xboolean" value="true"/>
-        <entry key="publishSelection" type="xboolean" value="true"/>
-        <entry key="xCol" type="xstring" value="Weekly_Sales"/>
-        <entry key="backgroundColor" type="xstring" value="rgba(255,255,255,1.0)"/>
-        <entry key="enableDragZooming" type="xboolean" value="false"/>
-        <entry key="enableRectangleSelection" type="xboolean" value="true"/>
-        <entry key="enableShowSelectedOnly" type="xboolean" value="true"/>
-        <entry key="enableSelection" type="xboolean" value="false"/>
-        <entry key="imageHeight" type="xint" value="600"/>
         <config key="dateTimeFormats">
-            <config key="timezone_Internals">
-                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-                <entry key="EnabledStatus" type="xboolean" value="true"/>
-            </config>
-            <entry key="globalLocalDateFormat" type="xstring" value="YYYY-MM-DD"/>
             <config key="globalDateTimeLocale_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
-            <entry key="timezone" type="xstring" value="Europe/Berlin"/>
-            <config key="globalLocalTimeFormat_Internals">
-                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-                <entry key="EnabledStatus" type="xboolean" value="true"/>
-            </config>
-            <config key="globalLocalDateFormat_Internals">
-                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-                <entry key="EnabledStatus" type="xboolean" value="true"/>
-            </config>
-            <entry key="globalLocalDateTimeFormat" type="xstring" value="YYYY-MM-DD"/>
-            <entry key="globalLocalTimeFormat" type="xstring" value="HH:mm:ss"/>
+            <entry key="globalDateTimeLocale" type="xstring" value="en"/>
             <config key="globalDateFormat_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
-            <config key="globalZonedDateTimeFormat_Internals">
+            <entry key="globalDateFormat" type="xstring" value="YYYY-MM-DD"/>
+            <config key="globalLocalDateFormat_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
-            <entry key="globalDateTimeLocale" type="xstring" value="en"/>
-            <entry key="globalDateFormat" type="xstring" value="YYYY-MM-DD"/>
+            <entry key="globalLocalDateFormat" type="xstring" value="YYYY-MM-DD"/>
             <config key="globalLocalDateTimeFormat_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
+            <entry key="globalLocalDateTimeFormat" type="xstring" value="YYYY-MM-DD"/>
+            <config key="globalLocalTimeFormat_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="globalLocalTimeFormat" type="xstring" value="HH:mm:ss"/>
+            <config key="globalZonedDateTimeFormat_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
             <entry key="globalZonedDateTimeFormat" type="xstring" value="YYYY-MM-DD z"/>
+            <config key="timezone_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="timezone" type="xstring" value="Europe/Berlin"/>
         </config>
-        <entry key="yAxisMax" type="xstring" isnull="true" value=""/>
-        <entry key="showWarningInView" type="xboolean" value="true"/>
-        <entry key="yAxisLabel" type="xstring" value="Vorhersage"/>
-        <entry key="subscribeFilter" type="xboolean" value="false"/>
-        <entry key="enableTitleChange" type="xboolean" value="true"/>
-        <entry key="enableXAxisLabelEdit" type="xboolean" value="true"/>
-        <entry key="reportOnMissingValues" type="xboolean" value="true"/>
-        <entry key="enablePanning" type="xboolean" value="false"/>
-        <entry key="snapToPoints" type="xboolean" value="false"/>
+        <entry key="enforceOrigin" type="xboolean" value="false"/>
         <entry key="showSelectedOnly" type="xboolean" value="false"/>
-        <entry key="gridColor" type="xstring" value="rgba(255,255,255,1.0)"/>
-        <entry key="enableYAxisLabelEdit" type="xboolean" value="true"/>
-        <entry key="yCol" type="xstring" value="Prediction (Weekly_Sales)"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -134,12 +134,12 @@
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1287, Cols: 25"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1287, Cols: 27"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="cc12ebed-4ffc-4873-9361-d58a737aa6dc"/>
+        <entry key="file_store_id" type="xstring" value="4aa12f36-0736-4b9c-accb-78b66caa9bc4"/>
     </config>
 </config>

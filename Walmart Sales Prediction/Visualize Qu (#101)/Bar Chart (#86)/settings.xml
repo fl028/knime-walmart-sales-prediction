@@ -39,7 +39,7 @@
                 <entry key="2" type="xstring" value="Prediction (Weekly_Sales)"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="14"/>
+                <entry key="array-size" type="xint" value="16"/>
                 <entry key="0" type="xstring" value="Latitude"/>
                 <entry key="1" type="xstring" value="Longitude"/>
                 <entry key="2" type="xstring" value="Store"/>
@@ -52,8 +52,10 @@
                 <entry key="9" type="xstring" value="Temperature_Converted"/>
                 <entry key="10" type="xstring" value="Weekly_Sales_Converted"/>
                 <entry key="11" type="xstring" value="Fuel_Price_Converted"/>
-                <entry key="12" type="xstring" value="Year"/>
-                <entry key="13" type="xstring" value="Quarter"/>
+                <entry key="12" type="xstring" value="Weekly_Sales_Converted_Mio"/>
+                <entry key="13" type="xstring" value="Weekly_Sales_Converted_Mio (rounded)"/>
+                <entry key="14" type="xstring" value="Year"/>
+                <entry key="15" type="xstring" value="Quarter"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -244,7 +246,7 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Bar Chart"/>
     <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
@@ -259,16 +261,21 @@
         <entry key="nodeDir" type="xstring" value="org.knime.dynamic.js.base:nodes/:barChart"/>
     </config>
     <entry key="name" type="xstring" value="Bar Chart"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="32f94251-aa08-456c-b82c-e88f93707f8c"/>
     </config>
 </config>
