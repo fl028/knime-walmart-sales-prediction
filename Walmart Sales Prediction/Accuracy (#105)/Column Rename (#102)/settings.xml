@@ -6,15 +6,23 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="selected_column" type="xstring" value="Year"/>
-        <entry key="is_nominal" type="xboolean" value="false"/>
-        <entry key="min_color" type="xint" value="-6710887"/>
-        <entry key="max_color" type="xint" value="-6710887"/>
+        <config key="all_columns">
+            <config key="0">
+                <entry key="old_column_name" type="xstring" value="Prediction (Weekly_Sales)"/>
+                <entry key="new_column_name" type="xstring" value="Lineare Regression"/>
+                <entry key="new_column_type" type="xint" value="0"/>
+            </config>
+            <config key="1">
+                <entry key="old_column_name" type="xstring" value="Mean_perMonth_Weekly_Sales"/>
+                <entry key="new_column_name" type="xstring" value="Durchschnittsberechnung"/>
+                <entry key="new_column_type" type="xint" value="0"/>
+            </config>
+        </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
-    <entry key="factory" type="xstring" value="org.knime.base.node.viz.property.color.ColorManager2NodeFactory"/>
-    <entry key="node-name" type="xstring" value="Color Manager"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Rename"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -24,21 +32,20 @@
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-feature-version" type="xstring" value="4.7.0.v202211291442"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="Color Manager"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="name" type="xstring" value="Column Rename"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-        </config>
-        <config key="port_2">
-            <entry key="index" type="xint" value="2"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 7, Cols: 3"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="4f06aa3c-1baa-43e0-be17-09d7a9933b43"/>
     </config>
 </config>
