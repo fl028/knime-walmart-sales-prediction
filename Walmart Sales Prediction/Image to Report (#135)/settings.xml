@@ -10,22 +10,22 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="PNGorSVG" type="xstring" value="PNG"/>
-        <config key="png-width_Internals">
+        <entry key="scale" type="xboolean" value="true"/>
+        <config key="png-height_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="png-height" type="xint" value="500"/>
-        <entry key="scale" type="xboolean" value="true"/>
+        <config key="png-width_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
         <entry key="png-width" type="xint" value="500"/>
         <config key="PNGorSVG_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <config key="png-height_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
+        <entry key="PNGorSVG" type="xstring" value="PNG"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Christmas"/>
