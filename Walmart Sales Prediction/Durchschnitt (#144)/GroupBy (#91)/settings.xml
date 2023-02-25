@@ -6,32 +6,15 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="maxNoneNumericalVals_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+        <config key="grouByColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <config key="aggregationColumn">
-            <config key="columnNames">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Weekly_Sales"/>
-            </config>
-            <config key="aggregationMethod">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Mean_V4.6"/>
-            </config>
-            <config key="inclMissingVals">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xboolean" value="false"/>
-            </config>
-            <config key="columnTypes">
-                <config key="0">
-                    <entry key="is_null" type="xboolean" value="false"/>
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-                </config>
-                <entry key="array-size" type="xint" value="1"/>
-            </config>
-        </config>
         <config key="grouByColumns">
+            <config key="InclList">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Month (number)"/>
+            </config>
             <config key="ExclList">
                 <entry key="array-size" type="xint" value="23"/>
                 <entry key="0" type="xstring" value="Region_Code"/>
@@ -59,37 +42,9 @@
                 <entry key="22" type="xstring" value="Joined_Quarter_Year"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
-            <config key="InclList">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Month (number)"/>
-            </config>
         </config>
-        <entry key="valueDelimiter" type="xstring" value=", "/>
-        <config key="aggregationOperatorSettings"/>
-        <entry key="typeMatch" type="xbyte" value="0"/>
-        <config key="nodeVersion_Internals">
+        <config key="maxNoneNumericalVals_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="dataTypeAggregators"/>
-        <config key="sortInMemory_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="nodeVersion" type="xint" value="1"/>
-        <config key="retainOrder_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
-        <config key="patternAggregators"/>
-        <config key="columnNamePolicy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="inMemory" type="xboolean" value="false"/>
-        <config key="valueDelimiter_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="maxNoneNumericalVals" type="xint" value="10000"/>
@@ -97,17 +52,62 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <config key="grouByColumns_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+        <entry key="enableHilite" type="xboolean" value="false"/>
+        <config key="sortInMemory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="sortInMemory" type="xboolean" value="false"/>
-        <entry key="enableHilite" type="xboolean" value="false"/>
+        <config key="aggregationColumn">
+            <config key="columnNames">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Weekly_Sales"/>
+            </config>
+            <config key="columnTypes">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+            </config>
+            <config key="aggregationMethod">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Mean_V4.6"/>
+            </config>
+            <config key="inclMissingVals">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <config key="aggregationOperatorSettings"/>
+        <config key="patternAggregators"/>
+        <config key="dataTypeAggregators"/>
+        <config key="columnNamePolicy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
+        <config key="retainOrder_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
         <entry key="retainOrder" type="xboolean" value="false"/>
         <config key="inMemory_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
+        <entry key="inMemory" type="xboolean" value="false"/>
+        <config key="valueDelimiter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="valueDelimiter" type="xstring" value=", "/>
+        <config key="nodeVersion_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeVersion" type="xint" value="1"/>
+        <entry key="typeMatch" type="xbyte" value="0"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -136,6 +136,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b4c17111-2504-4b73-9c91-a0a10f0ab16e"/>
+        <entry key="file_store_id" type="xstring" value="08a3092d-50d9-4d4e-8057-3965412b3afa"/>
     </config>
 </config>
