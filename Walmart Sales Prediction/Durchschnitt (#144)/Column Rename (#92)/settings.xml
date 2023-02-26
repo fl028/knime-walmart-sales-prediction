@@ -8,8 +8,8 @@
     <config key="model">
         <config key="all_columns">
             <config key="0">
-                <entry key="new_column_name" type="xstring" value="Mean_perMonth_Weekly_Sales"/>
                 <entry key="old_column_name" type="xstring" value="Mean(Weekly_Sales)"/>
+                <entry key="new_column_name" type="xstring" value="Mean_perMonth_Weekly_Sales"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
         </config>
@@ -41,6 +41,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d6ad5141-c8da-4b8b-a601-1273427f5920"/>
+        <entry key="file_store_id" type="xstring" value="74b9fd4e-6845-40f4-b2af-7b74a50f0d07"/>
     </config>
 </config>
