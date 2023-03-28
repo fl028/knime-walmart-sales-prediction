@@ -49,10 +49,10 @@
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.reporting.nodes"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202206271101"/>
-    <entry key="node-feature-name" type="xstring" value="KNIME Reporting Runtime"/>
-    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.reporting.runtime.feature.group"/>
-    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211090002"/>
+    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Image to Report"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -70,6 +70,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a304a013-267b-4853-847e-6ae8bf49d429"/>
+        <entry key="file_store_id" type="xstring" value="48e20b86-3892-4c66-bef7-2ff4cc8ebb55"/>
     </config>
 </config>
